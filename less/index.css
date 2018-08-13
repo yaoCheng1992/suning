@@ -1,0 +1,213 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  resize: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.ml_10 {
+  margin-left: 10px;
+}
+.mr_10 {
+  margin-right: 10px;
+}
+.mt_10 {
+  margin-top: 10px;
+}
+.mb_10 {
+  margin-bottom: 10px;
+}
+.snContainer {
+  width: 100%;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-top: 0.9rem;
+}
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66666667px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+.snTopbar {
+  width: 100%;
+  height: 0.9rem;
+  background: #fabc09;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.snTopbar a {
+  position: absolute;
+  top: 0;
+  width: 0.9rem;
+  height: 0.9rem;
+  padding: 0.3rem 0.3rem;
+}
+.snTopbar a.icon_category {
+  left: 0;
+  background: url(../images/icon_category.png) center center / 0.42rem 0.68rem no-repeat;
+}
+.snTopbar a.icon_cart {
+  right: 0;
+  background: url(../images/icon_cart.png) center center / 0.61rem 0.67rem no-repeat;
+}
+.snTopbar form {
+  width: 100%;
+  padding: 0 0.9rem;
+}
+.snTopbar form input {
+  width: 100%;
+  height: 0.6rem;
+  margin: 0.15rem 0;
+  padding-left: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: left;
+  font-size: 0.22rem;
+}
+.snTopbar form .icon_search {
+  position: absolute;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../images/icon_search.png) center / 0.27rem 0.28rem no-repeat;
+  left: 1rem;
+  top: 0.3rem;
+}
+.snBanner {
+  width: 100%;
+  overflow: hidden;
+  height: 4.1rem;
+  position: relative;
+}
+.snBanner ul:first-child {
+  width: 1000%;
+  transform: translateX(-10%);
+  -webkit-transform-transform: translateX(-10%);
+}
+.snBanner ul:first-child li {
+  width: 10%;
+  float: left;
+}
+.snBanner ul:first-child li a {
+  display: block;
+  width: 100%;
+}
+.snBanner ul:first-child li a img {
+  display: block;
+  width: 100%;
+}
+.snBanner ul:last-child {
+  position: absolute;
+  bottom: 0.16rem;
+  right: 0.16rem;
+}
+.snBanner ul:last-child li {
+  float: left;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 0.08rem;
+  margin-right: 0.16rem;
+  background: #fff;
+}
+.snBanner ul:last-child li.active {
+  background: #fabc09;
+}
+.snCate ul {
+  padding: 0.1rem 0.1rem;
+}
+.snCate ul li {
+  float: left;
+  width: 20%;
+}
+.snCate ul li a {
+  display: block;
+  text-align: center;
+}
+.snCate ul li a span {
+  display: block;
+}
+.snCate ul li a span img {
+  display: block;
+  width: 0.8rem;
+  margin: 0 auto;
+}
+.snCate ul li a p {
+  font-size: 0.22rem;
+  padding: 0.05rem;
+}
+.snMain {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.1rem;
+  border-top: 1px solid #ccc;
+}
+.snMain ul li {
+  width: 20%;
+  float: left;
+}
+.snMain ul li a {
+  display: block;
+  text-align: center;
+}
+.snMain ul li a span {
+  font-size: 0.4rem;
+}
+.snMain ul li a p {
+  padding: 0.1rem 0;
+  font-size: 0.22rem;
+}
+/*# sourceMappingURL=index.css.map */

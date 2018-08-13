@@ -1,0 +1,41 @@
+.snBanner {
+  width: 100%;
+  overflow: hidden;
+  height: 410rem/@fontSize;
+  position: relative;
+  ul:first-child {
+    width: 100%*10;
+    transform: translateX(-10%);
+    -webkit-transform-transform: translateX(-10%);
+    li {
+      width: 100%/10;
+      float: left;
+      a {
+        display: block;
+        width: 100%;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+    }
+
+  }
+  ul:last-child {
+    position: absolute;
+    bottom: 16rem/@fontSize;
+    right:16rem/@fontSize;
+    li {
+      float: left;
+      width: 16rem/@fontSize;
+      height: 16rem/@fontSize;
+      border-radius: 8rem/@fontSize;
+      margin-right: 16rem/@fontSize;
+      background: #fff;
+      &.active{
+        background: @baseColor;
+      }
+    }
+  }
+}

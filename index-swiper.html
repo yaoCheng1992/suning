@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/less" href="less/index-swiper.less">
+    <script type="text/javascript" rel="lib/html5shiv.min.js"></script>
+    <script type="text/javascript" rel="lib/respond/respond.min.js"></script>
+    <script type="text/javascript" src="lib/less/less.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="snContainer">
+    <header class="snTopbar">
+
+        <a href="#" class="icon_category">
+
+        </a>
+
+
+        <form action="#">
+            <span class="icon_search">
+
+            </span>
+            <input type="text" placeholder="60寸电视免费拿">
+        </form>
+
+        <a href="#" class="icon_cart">
+
+        </a>
+
+    </header>
+    <style>
+        .swiper-container a{
+            display: block;
+        }
+        .swiper-container a>img{
+            display: block;
+            width: 100%;
+        }
+    </style>
+    <section class="swiper-container">
+        <ul class="swiper-wrapper">
+
+            <li class="swiper-slide"><a href="#"><img src="images/banner01.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner02.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner03.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner04.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner05.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner06.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner07.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner08.jpg" alt=""></a></li>
+
+        </ul>
+        <ul  class="swiper-pagination">
+
+        </ul>
+
+    </section>
+    <section class="snCate">
+        <ul class="clearfix">
+            <li><a href="#"><span ><img src="images/nav01.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav02.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav03.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav04.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav05.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav01.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav02.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav03.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav04.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+            <li><a href="#"><span ><img src="images/nav05.png" alt=""></span>
+                <p>分类</p>
+            </a></li>
+        </ul>
+    </section>
+    <footer class="snMain">
+        <ul class="clearfix">
+            <li><a href="#"><span class="fa fa-home"></span><p>首页</p></a></li>
+            <li><a href="#"><span class="fa fa-reorder"></span><p>分类</p></a></li>
+            <li><a href="#"><span class="fa fa-file-text-o"></span><p>必抢清单</p></a></li>
+            <li><a href="#"><span class="fa fa-user"></span><p>我的易购</p></a></li>
+            <li><a href="#"><span class="fa fa-suitcase"></span><p>新手大礼包</p></a></li>
+        </ul>
+    </footer>
+</div>
+<script type="text/javascript" src="lib/zepto/zepto.min.js"></script>
+
+<script type="text/javascript" src="lib/swiper/js/swiper.min.js"></script>
+<script type="text/javascript">
+
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 800,
+            disableOnInteraction:false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        loop:true
+    });
+
+</script>
+</body>
+</html>
